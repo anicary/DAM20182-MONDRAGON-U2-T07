@@ -1,0 +1,7 @@
+{
+  "name": "firebasecaro",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

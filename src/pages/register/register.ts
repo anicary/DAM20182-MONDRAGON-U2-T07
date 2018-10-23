@@ -21,12 +21,12 @@ export class RegisterPage {
 
   validation_messages = {
    'email': [
-     { type: 'required', message: 'Email is required.' },
-     { type: 'pattern', message: 'Enter a valid email.' }
+     { type: 'required', message: 'Se requiere un correo' },
+     { type: 'pattern', message: 'Ingrese un correo valido.' }
    ],
    'password': [
-     { type: 'required', message: 'Password is required.' },
-     { type: 'minlength', message: 'Password must be at least 5 characters long.' }
+     { type: 'required', message: 'Se requiere una contraseña' },
+     { type: 'minlength', message: 'La contraseña debe contener 6 caracteres' }
    ]
  };
 
@@ -51,7 +51,7 @@ export class RegisterPage {
    .then(res => {
      console.log(res);
      this.errorMessage = "";
-     this.successMessage = "Your account has been created. Please log in.";
+     this.successMessage = "Se creo su cuenta, Inicie Sesión";
    }, err => {
      console.log(err);
      this.errorMessage = err.message;

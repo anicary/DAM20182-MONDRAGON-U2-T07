@@ -26,12 +26,13 @@ import * as firebase from 'firebase';
 
 
 const config = {
-  apiKey: "AIzaSyCrBtwwRsA85vNXx0ZF2mTvKdh7vWoo-QI",
-  authDomain: "ionictest-173a8.firebaseapp.com",
-  databaseURL: "https://ionictest-173a8.firebaseio.com",
-  projectId: "ionictest-173a8",
-  storageBucket: "ionictest-173a8.appspot.com",
-  messagingSenderId: "77549745455"
+  apiKey: "AIzaSyDFACzLg3o62xCnRR9rhFiQV-qbUREx1c4",
+    authDomain: "ionicfirebase-4f8e0.firebaseapp.com",
+    databaseURL: "https://ionicfirebase-4f8e0.firebaseio.com",
+    projectId: "ionicfirebase-4f8e0",
+    storageBucket: "ionicfirebase-4f8e0.appspot.com",
+    messagingSenderId: "425218108706"
+
 };
 
 @NgModule({
